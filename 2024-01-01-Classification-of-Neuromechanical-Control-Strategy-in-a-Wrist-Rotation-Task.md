@@ -22,8 +22,6 @@ Designed an eight-hour research protocol collecting data for this and other proj
 
 Transformed and modernized survey methodology, reducing completion time and minimizing privacy risk
 
-Led data collection
-
 Created methodological standard for cleaning, consolidation, and analysis of data, including the creation of automated scripts for future work in this area for the lab group
 
 
@@ -38,3 +36,31 @@ Held small group and individual evaluations to assess trainee readiness
 Lead a team of 4 graduate and over 10 undergraduate research assistants
 
 Recruited 40 participants and maintained a secure patient participation database
+
+
+
+
+# Phase 3: Signal Processing
+
+Data cleaning of motion data in MATLAB
+
+Data cleaning of EEG data in Python (MNE)
+
+Temporal synchronization in Python
+
+Consolidation of data sources in Python
+
+Database creation in Python and R
+
+All statistical analysis were performed using R
+
+
+
+
+# Phase 4: Traditional machine learning analyses
+
+Use of elbow plotting to confirm the number of strategy profiles in motion data
+
+Variance testing to assess presence of confounds
+
+ Cluster analysis to divide all motion data into two classifiers of control strategy
