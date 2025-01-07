@@ -3,7 +3,7 @@
 layout: post
 title: "Classification of Neuromechanical Control Strategy in a Wrist Rotation Task"
 date: 2024-01-01 12:00:00 -0000
-categories: CATEGORY-1 CATEGORY-2 CATEGORY-3 CATEGORY-4 CATEGORY-5 CATEGORY-6
+categories: Design Management Signal-Processing ML Statistics
 
 ---
 
@@ -64,3 +64,35 @@ Use of elbow plotting to confirm the number of strategy profiles in motion data
 Variance testing to assess presence of confounds
 
  Cluster analysis to divide all motion data into two classifiers of control strategy
+
+
+
+
+# Phase 5: Traditional statistical analyses
+
+Linear and non-linear regression modeling relating motion parameters to control strategy profiles
+
+Post-hoc tests of mean and variance defining motion parameters
+
+ANOVA models relating EEG alpha and beta power to control strategy
+
+Mean separation tests to test age-related changes
+
+Linear models are run for EEG event-related potentials onto all patient variables
+
+Mean separation tests to test effects of control strategy
+
+
+
+
+# Phase 6: Novel machine learning analyses
+
+Created control random forest model
+
+Created test Neural Ordinary Differential Equation (NODE), a type of deep network model
+
+Both models were created in Python using TensorFlow, PyTorch, TorchDyn, and SciKit
+
+Each model was trained and tested using epoched EEG data
+
+(The NODE was much faster at processing long form EEG data than the random forest)
