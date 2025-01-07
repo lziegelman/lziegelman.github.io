@@ -7,8 +7,6 @@ categories: Design Management Signal-Processing ML Statistics
 
 ---
 
-#A Test for Main vs _posts
-
 # Project Description
 
 The intent of our action shapes both the signal created by the brain and determines how we move our body. 
