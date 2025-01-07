@@ -1,13 +1,13 @@
 ---
 
 layout: post
-title: "Classification of Neuromechanical Control Strategy in a Wrist Rotation Task"
+title: "Dissertation"
 date: 2024-01-01 12:00:00 -0000
 categories: Design Management Signal-Processing ML Statistics
 
 ---
 
-# Project Description
+# Project Description: Classification of Neuromechanical Control Strategy in a Wrist Rotation Task
 
 The intent of our action shapes both the signal created by the brain and determines how we move our body. 
 
