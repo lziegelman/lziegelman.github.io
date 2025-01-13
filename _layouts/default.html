@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+        <header>
+        <div class="ribbon-outer">
+          <div class="ribbon-inner">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+          </div>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </div>
+      </header>
   </head>
   <body>
     {% include navigation.html %}
