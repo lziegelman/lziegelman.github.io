@@ -24,7 +24,6 @@
   </head>
 
   <body>
-    {% include navigation.html %}
     <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
     <div class="shell">
 
@@ -38,7 +37,7 @@
           <span class="right-tail"></span>
         </div>
       </header>
-
+      {% include navigation.html %}
       {% if site.show_downloads %}
         <section id="downloads">
           <span class="inner">
