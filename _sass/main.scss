@@ -1,3 +1,6 @@
-.current {
-  color: green;
-}
+---
+---
+@import "{{ site.theme }}";
+@import "main";
+
+.current {color: green;}
