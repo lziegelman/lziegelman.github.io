@@ -1,6 +1,13 @@
 ---
+
 ---
 @import "{{ site.theme }}";
 @import "main";
 
-.current {color: green;}
+.current {
+  color: green;
+}
+
+.center {
+  text-align: center;
+}
