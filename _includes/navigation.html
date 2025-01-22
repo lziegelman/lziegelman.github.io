@@ -1,9 +1,13 @@
+#menu {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
 <nav>
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}
-  
-  nav {margin: 0; padding: 0;}
 </nav>
