@@ -1,6 +1,4 @@
 - name: Home
   link: /
-- name: About Me
-  link: /about.html
 - name: Highlighted Projects
   link: /blog.html
