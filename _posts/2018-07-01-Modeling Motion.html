@@ -3,6 +3,14 @@ layout: post
 author: Liran Ziegelman
 ---
 
+<p>Early in my career, I became interested in functional hand tasks, like feeding, using a key, or writing, so I wanted to create some neuromechanical models to describe the sort of neural signal that would result in a biologically feasible motion. The earliest problem we ran into was that academic descriptions of how the wrist and hand move are much more sparse than for legged locomotion or postural control. Additionally, wrist publications tended to either focus on passive motion (imagine that someone is moving and stretching your wrist for you) or only record one functional task at a time which didn't extend well to my tasks of interest. This meant that we needed to create an initial model of active wrist rotation. The idea is that if we describe different degrees of freedom effectively, we can then create more complicated models that combine different motions and eventually end up with functional movement neuromechanical models.</p>
+
+<h2> 1. What region(s) of the brain contribute to signal in a repeated rotation task?</h2>
+<p>Aside from the motor cortex, premotor areas, basal ganglia, and cerebellum, we know that there is also spinal control of movement. In repeated motions that have already been learned, it is mroe efficient for the brain to send signal to start, stop, or adjust a movement while a central pattern generator in the spinal cord maintains the movement. For this work, we'll assume that repeated active rotations are maintained by a central pattern generator.</p>
+
+<h2> 2. What model should be used to approximate a repeated rotation?</h2>
+<p>We'll rely on the Matsuoka Oscillator model for a central pattern generator to model neural signal and then adapt it to amplify the signal to create our movements. </p>
+
 <h2>To be continued!</h2>
 
 <p>Source: Ziegelman L, Hu Y, Hernandez ME. Neuromechanical Simulation of Hand Pronation and Supination Task in Parkinson's disease. IEEE Engineering in Medicine and Biology: Proc.of the 40th Int. Conf. on Engineering in Medicine and Biology, (2060-2063), Honolulu, HI, USA, 2018</p>
