@@ -3,15 +3,15 @@ layout: post
 author: Liran Ziegelman
 ---
 
-<p>The final stage of my dissertation work asked the question of whether we could use machine learning (ML) to classify the control strategy that a person uses to move their hand (prioritizing speed or range of motion) at any given time. After breaking down the question into components, I ended up with needing to define the input and output for the ML model, as well as which ML model is a best fit for a question of this type.</p>
+<p>The final stage of my dissertation work asked the question of whether we could use machine learning (ML) to classify the control strategy that a person uses to move their hand (prioritizing speed or range of motion) at any given time based on their electroencephagraphy (EEG) signal. After breaking down the question into components, I ended up with needing to define the input and output for the ML model, as well as which ML model is a best fit for a question of this type.</p>
 
+<h2>1. Output: What should come out of the model</h2>
+<p>We need to define the ground truth of control strategy. The best we can do is look at motion data and divide up data into times when a participant is prioritizing speed or range of motion. We can't just arbitrarily divide our dataset in half equally, so we rely on k-means to create two clusters of data. Once we have these clusters, we can confirm that one cluster has significantly higher speed while the other has significantly smaller deviations in range of motion. Now we've established our behavioral labels.</p>
 
+<h2>2. Input: What should go into the model</h2>
+<p>We need to determine what segments of EEG data to use in our ML model. So we refer to past studies of control strategy to find some likely event-related potentials (ERPs) associated with control strategy selection. N1, P1, N2, P3, and prefrontal negativity are all candidates. </p>
 
-<p>1. Input: What should go into the model</p>
-
-<p>2. Output: What should come out of the model</p>
-
-<p>3. Model Design: What type of ML model and architecture would support successfully asking this question</p>
+<h2>3. Model Design: What type of ML model and architecture would support successfully asking this question</h2>
 
 
 
