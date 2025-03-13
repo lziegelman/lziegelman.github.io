@@ -16,6 +16,7 @@ author: Liran Ziegelman
 <h2>3. Model Design: What type of ML model and architecture would support successfully asking this question</h2>
 <p>Can I tell you a secret? When we initially created this project, we already knew we wanted to try out a Neural Ordinary Differential Equations (NODE) model. It's shiny, it's new (2019), and along with increases to solving speed compared to other network models, it resolves one of my biggest issues with network models - the black box mid-layer. NODEs replace that accurate but mysterious mid-layer with layer(s) of differential equations. One could argue that this adjustment echoes a more bio-inspired model. We chose to compare the NODE to a random forest, a neuroscientist's bread adn butter model. When compared directly, the NODE had slight advantages in accuracy only (likely because we were expansive in our included data) but our NODE performed in minutes while the random forest performed in hours. This tells us that the NODE's architechure is better suited for continuous EEG data, as compared to a decision tree type model.</p>
 
-<p style="text-align:center;"><img src="/motorNODE.png" alt="An example of a NODE model width="430" height="180""></p>
+<p style="text-align:center;"><img src="/fullNODE.png" alt="An example of a NODE model width="430" height="180"">
+<img src="/rf.png" alt="An example of a random forest model width="430" height="180""></p>
 
 <p>Source: Ziegelman L, Hernandez ME. Application of a Neural ODE to Classify Motion Control Strategy using EEG. IEEE Engineering in Medicine and Biology: Proc. of the 46th Int. Conf. on Engineering in Medicine and Biology, 2024</p>
